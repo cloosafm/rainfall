@@ -11,3 +11,7 @@ We are to provide a walkthrough for each level, explaining how we manage to find
 ## Some extra info
 First, if IP address is 10.x.x.x, make sure that the VM network adapter settings is set to 'host-only'.
 
+To copy files from the VM, use 
+```scp -P <port> <user>@<host>:/remote/path /local/path```
+
+
